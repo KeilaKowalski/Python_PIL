@@ -17,7 +17,8 @@ print("Hola " + "mundo..")
 print("hola", "mundo", sep="+")
 
 # End - quita salto de linea al finalizar el codigo
-print("hola", "mundo", end="")
+print("hola", "mundo", end="\t")
 print("desde visual")
 
 # Entrada de datos
+input("Ingrese un mensaje: ")
