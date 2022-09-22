@@ -54,6 +54,31 @@ gato1 = Gato("Tito", "Calico", "Felino", 3)
 print(f'Gato1 -> {gato1.nombre}, {gato1.raza}, {gato1.especie}, {gato1.edad}')
 gato1.saludar()
 
+# PRACTICANDO
+# class Persona:
+#     def __init__(self, nombre, apellido, edad):
+#         self.nombre = nombre
+#         self.apellido = apellido
+#         self.edad = edad
+
+# class Alumno(Persona):
+#     def __init__(self, carrera, cursando, nombre, apellido, edad):
+#         self.carrera = carrera
+#         self.cursando = cursando
+
+#         super().__init__(nombre, apellido, edad)
+
+#     def enClase(self):
+#             if(cursando == True):
+#                 print(f'El alumno {self.nombre} esta cursando actualmente')
+#             else:
+#                 print(f'El alumno {self.nombre} no esta cursando actualmente')
+    
+
+
+# alumno1 = Alumno("Medicina", True, "Juan", "Medina", 22)
+# print(f'Alumno1: {alumno1.nombre}, {alumno1.apellido}, {alumno1.carrera}, {alumno1.cursando}')
+
 
 
 
